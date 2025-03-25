@@ -1,0 +1,1 @@
+slurmstepd: error: *** JOB 5771955 ON cpu-p-602 CANCELLED AT 2025-02-28T10:21:25 DUE TO TIME LIMIT ***

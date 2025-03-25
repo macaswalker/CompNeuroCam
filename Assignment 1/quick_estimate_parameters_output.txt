@@ -1,0 +1,53 @@
+Job ID: 5772180
+Running on host: cpu-p-74
+Start time: Thu Feb 27 22:36:40 GMT 2025
+Starting quick parameter estimation...
+Loading data from ./representational.mat ...
+Data shape (X): (32000, 256)
+
+*** Estimating conditional model parameters w/ checkpoint ***
+Starting Optimization...
+Data saved to ./representational_output_fast/parameter_estimation_checkpoint/partial_params_last.pkl
+Iteration 0: Loss = 1794726.802288
+Data saved to ./representational_output_fast/parameter_estimation_checkpoint/partial_params_last.pkl
+Data saved to ./representational_output_fast/parameter_estimation_checkpoint/partial_params_last.pkl
+WARNING: Optimization did not converge. Msg: ABNORMAL_TERMINATION_IN_LNSRCH
+Data saved to ./representational_output_fast/parameter_estimation_checkpoint/estimated_parameters.pkl
+
+Done! Final a,b saved. Check partial_params_last.pkl for mid-run checkpoints.
+RUNNING THE L-BFGS-B CODE
+
+           * * *
+
+Machine precision = 2.220D-16
+ N =        65536     M =           10
+
+At X0         0 variables are exactly at the bounds
+
+At iterate    0    f=  1.81883D+06    |proj g|=  3.93150D+01
+
+At iterate    1    f=  1.79473D+06    |proj g|=  1.55180D+01
+
+At iterate    2    f=  1.66229D+06    |proj g|=  4.04712D+01
+
+At iterate    3    f=  1.48538D+06    |proj g|=  1.35670D+15
+
+           * * *
+
+Tit   = total number of iterations
+Tnf   = total number of function evaluations
+Tnint = total number of segments explored during Cauchy searches
+Skip  = number of BFGS updates skipped
+Nact  = number of active bounds at final generalized Cauchy point
+Projg = norm of the final projected gradient
+F     = final function value
+
+           * * *
+
+   N    Tit     Tnf  Tnint  Skip  Nact     Projg        F
+65536      4     51      2     0     0   1.357D+15   1.485D+06
+  F =   1485378.0777995544     
+
+ABNORMAL_TERMINATION_IN_LNSRCH                              
+Job finished at: Fri Feb 28 01:02:32 GMT 2025
+Exit status: 0
